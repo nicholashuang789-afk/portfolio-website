@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="A bold geometric illustrated portrait in profile">
+  <defs><clipPath id="pf"><rect width="800" height="1000"/></clipPath></defs>
+  <g clip-path="url(#pf)">
+    <rect width="800" height="1000" fill="#e8e8e3"/>
+
+    <!-- Bold accent disc behind -->
+    <circle cx="470" cy="340" r="210" fill="#e6391a"/>
+
+    <!-- Shoulders -->
+    <path d="M170 1000 C 190 820 300 740 410 740 C 520 740 630 820 650 1000 Z" fill="#0d0d0c"/>
+
+    <!-- Neck -->
+    <rect x="362" y="600" width="96" height="170" fill="#0d0d0c"/>
+
+    <!-- Head (bold profile, facing right) -->
+    <path d="M360 640
+             C 296 640 262 588 266 516
+             C 270 446 312 392 388 382
+             C 472 370 548 420 556 504
+             C 560 560 540 596 560 612
+             C 536 626 514 614 504 630
+             C 494 646 502 664 482 668
+             C 446 676 396 668 372 650 Z"
+          fill="#0d0d0c"/>
+
+    <!-- Face cut (off-white) so features read as negative space -->
+    <circle cx="498" cy="500" r="9" fill="#f3f3f0"/>
+
+    <!-- Brow + jaw accents -->
+    <path d="M470 452 C 490 444 514 446 528 460" fill="none" stroke="#f3f3f0" stroke-width="6" stroke-linecap="round"/>
+  </g>
+</svg>

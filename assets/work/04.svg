@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Paper Trails — bold topographic contour lines">
+  <defs>
+    <path id="t-blob" d="M-190 -50 C -150 -170 -30 -200 80 -170 C 190 -140 210 -20 175 80 C 140 180 20 210 -90 180 C -200 150 -210 40 -190 -50 Z"/>
+  </defs>
+  <rect width="800" height="1000" fill="#f3f3f0"/>
+
+  <!-- Peak A -->
+  <g transform="translate(310 400)" fill="none" stroke="#0d0d0c" stroke-width="5">
+    <use href="#t-blob" transform="scale(1.25)"/>
+    <use href="#t-blob" transform="scale(0.98)"/>
+    <use href="#t-blob" transform="scale(0.70)"/>
+    <use href="#t-blob" transform="scale(0.42)"/>
+  </g>
+  <circle cx="310" cy="400" r="14" fill="#e6391a"/>
+
+  <!-- Peak B -->
+  <g transform="translate(560 720) rotate(20) scale(0.7)" fill="none" stroke="#0d0d0c" stroke-width="7">
+    <use href="#t-blob" transform="scale(1.0)"/>
+    <use href="#t-blob" transform="scale(0.6)"/>
+    <use href="#t-blob" transform="scale(0.25)"/>
+  </g>
+  <circle cx="560" cy="720" r="11" fill="#e6391a"/>
+</svg>
