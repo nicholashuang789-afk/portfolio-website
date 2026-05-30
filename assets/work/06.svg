@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Field Notes — a bold circular coffee emblem with sun and mountains">
+  <defs>
+    <clipPath id="disc6"><circle cx="400" cy="470" r="230"/></clipPath>
+    <path id="arc6" d="M 230 470 A 170 170 0 0 1 570 470" fill="none"/>
+  </defs>
+
+  <rect width="800" height="1000" fill="#f3f3f0"/>
+
+  <!-- Emblem rings -->
+  <circle cx="400" cy="470" r="262" fill="#0d0d0c"/>
+  <circle cx="400" cy="470" r="230" fill="#f3f3f0"/>
+
+  <!-- Scene -->
+  <g clip-path="url(#disc6)">
+    <circle cx="400" cy="500" r="96" fill="#e6391a"/>
+    <g stroke="#0d0d0c" stroke-width="9" stroke-linecap="round">
+      <line x1="400" y1="350" x2="400" y2="392"/>
+      <line x1="300" y1="392" x2="328" y2="424"/>
+      <line x1="500" y1="392" x2="472" y2="424"/>
+    </g>
+    <!-- Mountains -->
+    <path d="M170 640 L 330 470 L 450 640 Z" fill="#0d0d0c"/>
+    <path d="M370 640 L 540 440 L 690 640 Z" fill="#0d0d0c"/>
+    <rect x="150" y="636" width="500" height="120" fill="#0d0d0c"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text font-family="'Space Grotesk', Helvetica, Arial, sans-serif" font-weight="700" font-size="42" letter-spacing="10" fill="#0d0d0c" text-anchor="middle">
+    <textPath href="#arc6" startOffset="50%">FIELD&#160;NOTES</textPath>
+  </text>
+
+  <!-- Tagline -->
+  <g stroke="#0d0d0c" stroke-width="3"><line x1="300" y1="772" x2="360" y2="772"/><line x1="440" y1="772" x2="500" y2="772"/></g>
+  <text x="400" y="780" font-family="'Space Grotesk', Helvetica, Arial, sans-serif" font-weight="500" font-size="22" letter-spacing="6" fill="#0d0d0c" text-anchor="middle">SMALL&#160;BATCH</text>
+</svg>

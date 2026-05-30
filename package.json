@@ -1,0 +1,19 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "Nicholas Huang — an editorial illustration & design portfolio (static site, no build step).",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx --yes serve .",
+    "dev": "npx --yes serve . -l 3000",
+    "test": "echo \"No tests — static site\" && exit 0"
+  },
+  "keywords": [
+    "portfolio",
+    "illustration",
+    "design",
+    "static-site"
+  ],
+  "author": "Nicholas Huang",
+  "license": "ISC"
+}

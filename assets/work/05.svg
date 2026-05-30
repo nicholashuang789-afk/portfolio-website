@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Mono no Aware — overlapping bold geometric shapes">
+  <rect width="800" height="1000" fill="#f3f3f0"/>
+
+  <g style="mix-blend-mode:multiply">
+    <!-- Big square -->
+    <rect x="150" y="220" width="340" height="340" fill="#0d0d0c"/>
+    <!-- Circle overlapping -->
+    <circle cx="520" cy="420" r="200" fill="#e6391a"/>
+    <!-- Triangle -->
+    <path d="M300 780 L 500 460 L 660 780 Z" fill="#0d0d0c"/>
+    <!-- Mid-gray disc -->
+    <circle cx="300" cy="640" r="150" fill="#97968f"/>
+  </g>
+
+  <!-- Quiet structure -->
+  <g fill="none" stroke="#0d0d0c" stroke-width="4">
+    <circle cx="520" cy="420" r="200"/>
+  </g>
+  <rect x="120" y="850" width="560" height="6" fill="#0d0d0c"/>
+  <circle cx="520" cy="420" r="12" fill="#f3f3f0"/>
+  <circle cx="520" cy="420" r="12" fill="none" stroke="#0d0d0c" stroke-width="3"/>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Night Garden — a pale moon and bold foliage on a black sky">
+  <rect width="800" height="1000" fill="#0d0d0c"/>
+
+  <!-- Moon -->
+  <circle cx="430" cy="340" r="160" fill="#f3f3f0"/>
+  <!-- Crescent bite -->
+  <circle cx="498" cy="300" r="140" fill="#0d0d0c"/>
+
+  <!-- Star -->
+  <path d="M210 250 l10 30 30 10 -30 10 -10 30 -10 -30 -30 -10 30 -10 z" fill="#e6391a"/>
+  <circle cx="640" cy="200" r="7" fill="#f3f3f0"/>
+  <circle cx="180" cy="470" r="5" fill="#f3f3f0"/>
+
+  <!-- Bold foliage silhouettes (off-white + vermilion) -->
+  <g fill="#f3f3f0">
+    <path d="M0 1000 L0 720 C 120 720 200 820 200 1000 Z"/>
+    <path d="M800 1000 L800 760 C 690 760 600 840 600 1000 Z"/>
+  </g>
+  <path d="M250 1000 C 250 860 360 800 470 800 C 470 920 410 1000 410 1000 Z" fill="#e6391a"/>
+
+  <!-- Stems -->
+  <g stroke="#f3f3f0" stroke-width="10" stroke-linecap="round">
+    <line x1="120" y1="1000" x2="120" y2="780"/>
+    <line x1="680" y1="1000" x2="680" y2="820"/>
+  </g>
+</svg>

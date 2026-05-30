@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ============================================================
+       SEO / SOCIAL
+       Edit the title, description, and og: tags to match you.
+       ============================================================ -->
+  <title>Nicholas Huang — Illustration &amp; Design</title>
+  <meta name="description" content="Nicholas Huang is an independent illustrator and designer crafting bold, characterful visuals for brands, books, and editorial." />
+  <meta name="author" content="Nicholas Huang" />
+  <meta name="theme-color" content="#f3f3f0" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Nicholas Huang — Illustration &amp; Design" />
+  <meta property="og:description" content="Independent illustrator and designer crafting bold, characterful visuals for brands, books, and editorial." />
+
+  <!-- Inline SVG favicon (a small monogram mark — no extra file needed) -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='2' fill='%230d0d0c'/%3E%3Ctext x='16' y='22' font-family='Helvetica,Arial,sans-serif' font-weight='700' font-size='15' fill='%23f3f3f0' text-anchor='middle'%3ENH%3C/text%3E%3C/svg%3E" />
+
+  <!-- Fonts: Fraunces (display serif) + Inter (UI sans). Falls back gracefully. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <!-- Skip link for keyboard / screen-reader users -->
+  <a class="skip-link" href="#work">Skip to work</a>
+
+  <!-- Reading progress bar -->
+  <div class="progress" aria-hidden="true"><span class="progress__bar" id="progressBar"></span></div>
+
+  <!-- ===================== NAV ===================== -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#top" class="nav__brand" aria-label="Nicholas Huang — home">
+        <span class="nav__mark" aria-hidden="true">NH</span>
+        <span class="nav__name">Nicholas Huang</span>
+      </a>
+
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#work" class="nav__link">Work</a>
+        <a href="#about" class="nav__link">About</a>
+        <a href="#services" class="nav__link">Services</a>
+        <a href="#contact" class="nav__link nav__link--cta">Contact</a>
+      </nav>
+
+      <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="mobileMenu" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===================== MOBILE MENU ===================== -->
+  <div class="menu" id="mobileMenu" aria-hidden="true">
+    <nav class="menu__links" aria-label="Mobile">
+      <a href="#work" class="menu__link"><span class="menu__num">01</span> Work</a>
+      <a href="#about" class="menu__link"><span class="menu__num">02</span> About</a>
+      <a href="#services" class="menu__link"><span class="menu__num">03</span> Services</a>
+      <a href="#contact" class="menu__link"><span class="menu__num">04</span> Contact</a>
+    </nav>
+    <div class="menu__foot">
+      <a href="mailto:nicholashuang789@gmail.com">nicholashuang789@gmail.com</a>
+    </div>
+  </div>
+
+  <main id="top">
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container">
+        <p class="hero__eyebrow reveal">
+          <span class="dot" aria-hidden="true"></span>
+          Independent illustrator &amp; designer — available for select projects
+        </p>
+
+        <h1 class="hero__title" id="hero-title">
+          <span class="reveal" style="--d:.05s">Illustration</span>
+          <span class="hero__amp reveal" style="--d:.12s">&amp;</span>
+          <span class="reveal hero__title-line2" style="--d:.18s">Design</span>
+        </h1>
+
+        <div class="hero__meta">
+          <p class="hero__lead reveal" style="--d:.26s">
+            I make bold, characterful images and identities for brands, books, and
+            editorial — work that feels handmade, considered, and a little bit alive.
+          </p>
+          <a href="#work" class="hero__scroll reveal" style="--d:.34s">
+            <span>Selected work</span>
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 4v16M6 14l6 6 6-6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== MARQUEE ===================== -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Editorial</span><span class="marquee__sep">/</span>
+        <span>Brand Identity</span><span class="marquee__sep">/</span>
+        <span>Character Design</span><span class="marquee__sep">/</span>
+        <span>Packaging</span><span class="marquee__sep">/</span>
+        <span>Murals</span><span class="marquee__sep">/</span>
+        <span>Lettering</span><span class="marquee__sep">/</span>
+        <!-- duplicate for seamless loop -->
+        <span>Editorial</span><span class="marquee__sep">/</span>
+        <span>Brand Identity</span><span class="marquee__sep">/</span>
+        <span>Character Design</span><span class="marquee__sep">/</span>
+        <span>Packaging</span><span class="marquee__sep">/</span>
+        <span>Murals</span><span class="marquee__sep">/</span>
+        <span>Lettering</span><span class="marquee__sep">/</span>
+      </div>
+    </div>
+
+    <!-- ===================== WORK ===================== -->
+    <section class="work section" id="work" aria-labelledby="work-title">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="label">Selected Work</span>
+          <h2 class="section__title" id="work-title">A few things I'm proud of</h2>
+        </header>
+
+        <!-- ============================================================
+             GALLERY
+             To use your own images: replace the SVG in assets/work/ with
+             your file (jpg/png/webp) and update the src + alt below.
+             Keep the data-* attributes — the lightbox reads them.
+             ============================================================ -->
+        <div class="gallery" id="gallery">
+
+          <article class="card card--wide reveal" tabindex="0" role="button"
+                   data-title="Solstice" data-cat="Editorial Illustration" data-year="2025"
+                   data-src="assets/work/01.svg"
+                   data-desc="A cover series exploring light, warmth, and form for a literary magazine's summer issue.">
+            <span class="card__num">01</span>
+            <div class="card__media"><img src="assets/work/01.svg" alt="Solstice — layered warm arcs rising over a horizon" loading="lazy" /></div>
+            <div class="card__bar">
+              <div><h3 class="card__title">Solstice</h3><p class="card__cat">Editorial Illustration</p></div>
+              <span class="card__view" aria-hidden="true">View <svg viewBox="0 0 24 24" width="16" height="16"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </div>
+          </article>
+
+          <article class="card reveal" tabindex="0" role="button"
+                   data-title="Bloom State" data-cat="Brand Identity" data-year="2024"
+                   data-src="assets/work/02.svg"
+                   data-desc="Visual identity and packaging for an independent botanical skincare line rooted in slow rituals.">
+            <span class="card__num">02</span>
+            <div class="card__media"><img src="assets/work/02.svg" alt="Bloom State — minimal botanical stem and blossom" loading="lazy" /></div>
+            <div class="card__bar">
+              <div><h3 class="card__title">Bloom State</h3><p class="card__cat">Brand Identity</p></div>
+              <span class="card__view" aria-hidden="true">View <svg viewBox="0 0 24 24" width="16" height="16"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </div>
+          </article>
+
+          <article class="card reveal" tabindex="0" role="button"
+                   data-title="Night Garden" data-cat="Character Design" data-year="2025"
+                   data-src="assets/work/03.svg"
+                   data-desc="A cast of nocturnal characters and key art developed for a short animated film.">
+            <span class="card__num">03</span>
+            <div class="card__media"><img src="assets/work/03.svg" alt="Night Garden — a cream moon among leaves on a deep sky" loading="lazy" /></div>
+            <div class="card__bar">
+              <div><h3 class="card__title">Night Garden</h3><p class="card__cat">Character Design</p></div>
+              <span class="card__view" aria-hidden="true">View <svg viewBox="0 0 24 24" width="16" height="16"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </div>
+          </article>
+
+          <article class="card card--wide reveal" tabindex="0" role="button"
+                   data-title="Paper Trails" data-cat="Editorial" data-year="2024"
+                   data-src="assets/work/04.svg"
+                   data-desc="A suite of spot illustrations for a long-form feature on the quiet art of modern cartography.">
+            <span class="card__num">04</span>
+            <div class="card__media"><img src="assets/work/04.svg" alt="Paper Trails — flowing topographic contour lines" loading="lazy" /></div>
+            <div class="card__bar">
+              <div><h3 class="card__title">Paper Trails</h3><p class="card__cat">Editorial</p></div>
+              <span class="card__view" aria-hidden="true">View <svg viewBox="0 0 24 24" width="16" height="16"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </div>
+          </article>
+
+          <article class="card reveal" tabindex="0" role="button"
+                   data-title="Mono no Aware" data-cat="Personal Series" data-year="2023"
+                   data-src="assets/work/05.svg"
+                   data-desc="An ongoing study of transience — overlapping planes of translucent color and quiet geometry.">
+            <span class="card__num">05</span>
+            <div class="card__media"><img src="assets/work/05.svg" alt="Mono no Aware — overlapping translucent color shapes" loading="lazy" /></div>
+            <div class="card__bar">
+              <div><h3 class="card__title">Mono no Aware</h3><p class="card__cat">Personal Series</p></div>
+              <span class="card__view" aria-hidden="true">View <svg viewBox="0 0 24 24" width="16" height="16"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </div>
+          </article>
+
+          <article class="card reveal" tabindex="0" role="button"
+                   data-title="Field Notes" data-cat="Packaging" data-year="2025"
+                   data-src="assets/work/06.svg"
+                   data-desc="An emblem and label system for a small-batch coffee roaster, drawn entirely by hand.">
+            <span class="card__num">06</span>
+            <div class="card__media"><img src="assets/work/06.svg" alt="Field Notes — a hand-drawn sun and mountain emblem" loading="lazy" /></div>
+            <div class="card__bar">
+              <div><h3 class="card__title">Field Notes</h3><p class="card__cat">Packaging</p></div>
+              <span class="card__view" aria-hidden="true">View <svg viewBox="0 0 24 24" width="16" height="16"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section class="about section" id="about" aria-labelledby="about-title">
+      <div class="container about__grid">
+        <div class="about__portrait reveal">
+          <img src="assets/portrait.svg" alt="Portrait of Nicholas Huang" loading="lazy" />
+          <span class="about__caption">Studio, somewhere with good light</span>
+        </div>
+
+        <div class="about__body">
+          <span class="label reveal">About</span>
+          <h2 class="section__title reveal" id="about-title">Drawing is just thinking, made visible.</h2>
+          <p class="reveal">
+            I'm Nicholas — an illustrator and designer with a soft spot for warm color,
+            confident line, and ideas that earn a second look. Over the last decade I've
+            partnered with publishers, studios, and founders to turn fuzzy briefs into
+            images people actually remember.
+          </p>
+          <p class="reveal">
+            My work lives at the meeting point of illustration and design: I care as much
+            about the kerning as the brushstroke. Whether it's a single cover or a whole
+            visual system, I aim for craft you can feel.
+          </p>
+
+          <ul class="about__skills reveal">
+            <li>Illustration</li>
+            <li>Brand Identity</li>
+            <li>Art Direction</li>
+            <li>Editorial</li>
+            <li>Lettering</li>
+            <li>Packaging</li>
+          </ul>
+
+          <div class="about__clients reveal">
+            <span class="label">Selected clients</span>
+            <p class="about__client-list">Penguin&nbsp;Press · Kinfolk · The&nbsp;Atlantic · Aesop · MUBI · Monocle</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SERVICES ===================== -->
+    <section class="services section" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <header class="section__head reveal">
+          <span class="label">Services</span>
+          <h2 class="section__title" id="services-title">How we can work together</h2>
+        </header>
+
+        <div class="services__grid">
+          <article class="service reveal">
+            <span class="service__num">01</span>
+            <h3 class="service__title">Illustration</h3>
+            <p>Original artwork for covers, editorials, campaigns, and products — from a single hero image to an extended series.</p>
+          </article>
+          <article class="service reveal" style="--d:.08s">
+            <span class="service__num">02</span>
+            <h3 class="service__title">Brand &amp; Identity</h3>
+            <p>Logos, wordmarks, palettes, and the small system rules that keep a brand feeling like itself everywhere it shows up.</p>
+          </article>
+          <article class="service reveal" style="--d:.16s">
+            <span class="service__num">03</span>
+            <h3 class="service__title">Art Direction</h3>
+            <p>Concept, mood, and visual strategy for launches and stories — shaping the idea before the first line is drawn.</p>
+          </article>
+          <article class="service reveal" style="--d:.24s">
+            <span class="service__num">04</span>
+            <h3 class="service__title">Lettering &amp; Type</h3>
+            <p>Custom hand-lettering, titles, and display type that give words a voice and a personality of their own.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section class="contact section" id="contact" aria-labelledby="contact-title">
+      <div class="container contact__inner">
+        <span class="label reveal">Contact</span>
+        <h2 class="contact__title reveal" id="contact-title">Let's make something<br />worth looking at.</h2>
+        <a class="contact__email reveal" href="mailto:nicholashuang789@gmail.com">nicholashuang789@gmail.com</a>
+        <p class="contact__note reveal">Currently booking projects for Q3 — say hello and tell me what you're dreaming up.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span class="footer__brand">Nicholas Huang</span>
+      <nav class="footer__social" aria-label="Social">
+        <a href="#" rel="noopener">Instagram</a>
+        <a href="#" rel="noopener">Behance</a>
+        <a href="#" rel="noopener">Dribbble</a>
+        <a href="mailto:nicholashuang789@gmail.com">Email</a>
+      </nav>
+      <span class="footer__copy">© <span id="year">2026</span> — Made with care</span>
+    </div>
+  </footer>
+
+  <!-- ===================== LIGHTBOX ===================== -->
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Project detail">
+    <div class="lightbox__backdrop" data-close></div>
+    <div class="lightbox__panel" role="document">
+      <button class="lightbox__close" id="lightboxClose" aria-label="Close">
+        <svg viewBox="0 0 24 24" width="22" height="22"><path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+      </button>
+      <div class="lightbox__media"><img id="lightboxImg" src="" alt="" /></div>
+      <div class="lightbox__info">
+        <span class="lightbox__cat" id="lightboxCat"></span>
+        <h3 class="lightbox__title" id="lightboxTitle"></h3>
+        <p class="lightbox__desc" id="lightboxDesc"></p>
+        <span class="lightbox__year" id="lightboxYear"></span>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

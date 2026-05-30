@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Solstice — bold concentric half-arcs of a sun rising over a horizon">
+  <rect width="800" height="1000" fill="#f3f3f0"/>
+
+  <!-- Concentric sun arcs rising from the horizon (half-discs) -->
+  <g>
+    <path d="M60 640 A 340 340 0 0 1 740 640 Z" fill="#0d0d0c"/>
+    <path d="M140 640 A 260 260 0 0 1 660 640 Z" fill="#f3f3f0"/>
+    <path d="M200 640 A 200 200 0 0 1 600 640 Z" fill="#e6391a"/>
+    <path d="M270 640 A 130 130 0 0 1 530 640 Z" fill="#f3f3f0"/>
+    <path d="M330 640 A 70 70 0 0 1 470 640 Z" fill="#0d0d0c"/>
+  </g>
+
+  <!-- Horizon -->
+  <rect x="60" y="636" width="680" height="8" fill="#0d0d0c"/>
+
+  <!-- Rays above -->
+  <g stroke="#0d0d0c" stroke-width="8" stroke-linecap="round">
+    <line x1="400" y1="150" x2="400" y2="240"/>
+    <line x1="210" y1="210" x2="262" y2="286"/>
+    <line x1="590" y1="210" x2="538" y2="286"/>
+  </g>
+  <circle cx="400" cy="300" r="0"/>
+</svg>

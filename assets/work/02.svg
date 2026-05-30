@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Bloom State — a bold geometric blossom mark">
+  <rect width="800" height="1000" fill="#e8e8e3"/>
+
+  <!-- Stem -->
+  <rect x="392" y="500" width="16" height="430" rx="8" fill="#0d0d0c"/>
+
+  <!-- Leaves: two bold half-discs -->
+  <path d="M400 760 A 110 110 0 0 1 290 650 A 110 110 0 0 1 400 760 Z" fill="#0d0d0c"/>
+  <path d="M400 680 A 92 92 0 0 0 492 588 A 92 92 0 0 0 400 680 Z" fill="#0d0d0c"/>
+
+  <!-- Blossom: bold petal ring -->
+  <g fill="#0d0d0c">
+    <circle cx="400" cy="208" r="78"/>
+    <circle cx="328" cy="332" r="78"/>
+    <circle cx="472" cy="332" r="78"/>
+    <circle cx="262" cy="300" r="0"/>
+  </g>
+  <g fill="#0d0d0c">
+    <circle cx="300" cy="270" r="78"/>
+    <circle cx="500" cy="270" r="78"/>
+  </g>
+
+  <!-- Center -->
+  <circle cx="400" cy="290" r="92" fill="#e8e8e3"/>
+  <circle cx="400" cy="290" r="58" fill="#e6391a"/>
+</svg>
